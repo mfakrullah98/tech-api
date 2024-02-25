@@ -12,10 +12,10 @@ class UnemploymentRate extends Model
     public $fillable = [
         'country',
         'code',
-        '2010',
-        '2011',
-        '2012',
-        '2013',
-        '2014'
+        'y2010',
+        'y2011',
+        'y2012',
+        'y2013',
+        'y2014'
     ];
 }

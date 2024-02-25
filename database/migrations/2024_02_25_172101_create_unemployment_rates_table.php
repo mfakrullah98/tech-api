@@ -16,11 +16,11 @@ return new class extends Migration
             $table->id();
             $table->string('country');
             $table->string('code');
-            $table->float('2010');
-            $table->float('2011');
-            $table->float('2012');
-            $table->float('2013');
-            $table->float('2014');
+            $table->float('y2010');
+            $table->float('y2011');
+            $table->float('y2012');
+            $table->float('y2013');
+            $table->float('y2014');
             $table->softDeletes();
             $table->timestamps();
         });
